@@ -1,0 +1,59 @@
+# ALXprodev-Devops
+
+Welcome to my advanced shell project where I explore the usage of bash shell commands like `awk`, `sed`, `grep`, and `jq` to extract data, manipulate it, and perform tasks associated with automation and DevOps.
+
+This repository contains multiple scripts, each focusing on a specific task or concept. The purpose of this README is to provide a **general overview** of what each script does, while each script also has its own dedicated README for more detailed documentation.
+
+I’ve approached this project as a beginner learning by doing, so you might see iterative improvements and refinements in different versions of the same script.
+
+## How to Run the Scripts
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repo-url>
+   cd <repo-directory>
+   ```
+2. Make the script executable:
+
+   ```bash
+   chmod +x scriptname
+   ```
+3. Run the script:
+
+   ```bash
+   ./scriptname
+   ```
+4. Ensure you have an internet connection, as most scripts make API requests.
+5. Check `requirements.txt` for dependencies needed to run the scripts (e.g., `jq`, `curl`).
+
+## Scripts Overview
+
+### apiAutomation-0x00
+
+Makes an API request to the Pokémon API for Pikachu’s data, saves the response to `data.json` if successful, and logs errors with timestamps to `errors.txt` if the request fails.
+
+### data\_extraction\_automation-0x01
+
+Extracts details from the previously saved `data.json` file and prints them to standard output.
+
+### batchProcessing-0x02
+
+Processes an array of Pokémon, with retry logic for network errors. Variants include:
+
+* `_old`: No retry logic, just logs errors.
+* `_ok`: Retries for connection errors but ignores HTTP status errors.
+* `batchRework`: Retries the entire batch if any single request fails.
+
+### summaryData-0x03
+
+Extracts data from files in the `pokemon_data` directory and compiles them into a CSV. Also calculates the average height and weight using `awk`.
+
+### batchProcessing-0x04
+
+Implements parallel processing by running background subshells, with a job rate limiter to cap simultaneous processes at 4.
+
+---
+
+This structure lets you explore each script individually while keeping a unified overview here in the main README.
+

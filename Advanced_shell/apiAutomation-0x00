@@ -1,0 +1,36 @@
+#!/bin/bash
+
+ENDPOINT=pikachu
+WRITE_FILE=data.json
+ERROR_LOG=errors.txt
+
+TMP_BODY=$(mktemp)
+TMP_ERROR=$(mktemp)
+
+
+trap 'rm -f "$TMP_BODY" "$TMP_ERROR"' EXIT
+response=$(curl -w "%{http_code}" -sS -o "$TMP_BODY" "https://pokeapi.co/api/v2/pokemon/$ENDPOINT" 2>"$TMP_ERROR") 
+exit_code=$?
+
+if [ "$exit_code" -ne 0 ];then
+	{
+		echo "[$(date)] Curl failed with exit code: $exit_code"
+		cat "$TMP_ERROR"
+	} >> "$ERROR_LOG"
+	exit "$exit_code"
+fi
+
+if [ "$response" -eq 200 ]; then
+	mv "$TMP_BODY" "$WRITE_FILE"
+	echo "response written to file, $WRITE_FILE"
+else
+	{
+		echo "[$(date)] Request failed. HTTP Status: $response"
+		cat "$TMP_BODY"
+	} >> "$ERROR_LOG"
+	rm -f "$TMP_BODY"
+fi
+
+rm -f "$TMP_ERROR"
+
+
