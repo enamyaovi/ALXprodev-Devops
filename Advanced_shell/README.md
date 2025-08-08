@@ -35,15 +35,13 @@ Makes an API request to the Pokémon API for Pikachu’s data, saves the respons
 
 ### data_extraction_automation-0x01
 
-Reads a saved `data.json` file and extracts key details—such as Pokémon name, type(s), weight, and height—then prints them in a formatted output.
+Reads a saved `data.json` file and extracts key details, such as Pokémon name, type(s), weight, and height then prints them in a formatted output.
 
 ### batchProcessing-0x02
 
-Processes an array of Pokémon, with retry logic for network errors. Variants include:
-
-* `_old`: No retry logic, just logs errors.
-* `_ok`: Retries for connection errors but ignores HTTP status errors.
-* `batchRework`: Retries the entire batch if any single request fails.
+A Bash script that automates the extraction of data from a saved data.json file or API responses.
+It saves successful requests to the data/ directory and logs errors to a dedicated log file for review.
+Includes retry logic for certain HTTP errors (429 and 5xx) and organizes results for easy access.
 
 ### summaryData-0x03
 

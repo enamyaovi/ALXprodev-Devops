@@ -1,0 +1,67 @@
+#!/bin/bash
+
+error_log="errors.txt"
+data_dir="pokemon_data"
+
+mkdir -p "$data_dir"
+touch "$error_log" || exit 1
+
+pokemon_array=("Bulbasaur" "Cephas" "Ivysaur" "Venusaur" "Charmander" "Charmeleon")
+
+for str in "${pokemon_array[@]}"; do
+    tmpbody=$(mktemp)
+    tmperror=$(mktemp)
+    trap 'rm -f "$tmpbody" "$tmperror"' EXIT
+
+    retries=3
+    echo "Fetching data for ${str}..."
+
+    while [ "$retries" -gt 0 ]; do
+        response=$(curl -w "%{http_code}" -sS -o "$tmpbody" "https://pokeapi.co/api/v2/pokemon/${str,,}" 2>"$tmperror")
+        exit_code=$?
+
+        if [[ "$exit_code" -ne 0 ]]; then
+            echo "Attempt failed with curl exit code $exit_code. Retries left: $((retries - 1))"
+            ((retries--))
+            sleep 1
+
+            if [[ "$retries" -eq 0 ]]; then
+                {
+                    echo "[$(date)] Curl failed for $str with exit code: $exit_code"
+                    cat "$tmperror"
+                } >> "$error_log"
+                break
+            fi
+
+        elif [[ "$response" -eq 200 ]]; then
+            mv "$tmpbody" "$data_dir/${str}.json"
+            echo "Saved data to ${data_dir}/${str}.json"
+            break
+
+        else
+            # Retry only on specific HTTP errors: 429 or 5xx
+            if [[ "$response" -eq 429 || ( "$response" -ge 500 && "$response" -lt 600 ) ]]; then
+                echo "HTTP $response for $str. Retrying... Retries left: $((retries - 1))"
+                ((retries--))
+                sleep 1
+
+                if [[ "$retries" -eq 0 ]]; then
+                    {
+                        echo "[$(date)] HTTP $response retries exhausted for $str"
+                        cat "$tmpbody"
+                    } >> "$error_log"
+                    break
+                fi
+            else
+                {
+                    echo "[$(date)] Request failed for $str. HTTP Status: $response"
+                    cat "$tmpbody"
+                } >> "$error_log"
+                break
+            fi
+        fi
+    done
+    sleep 0.7
+done
+
+echo "All done. Check $data_dir for results and $error_log for any issues."

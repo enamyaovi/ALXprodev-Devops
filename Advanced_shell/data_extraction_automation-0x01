@@ -5,11 +5,15 @@
 [ -s data.json ] || { echo "Error: data.json not found or empty"; exit 1; }
 
 name=$(jq -r '.name' data.json | sed -E 's/(.)(.*)/\U\1\L\2/')
-weight=$(jq -r '.weight' data.json | awk '{ printf "%.1f", $1 / 10}')
-height=$(jq -r '.height' data.json | awk '{ printf "%.1f", $1 / 10}')
-p_type=$(jq -r '.types[].type.name' data.json | sed -E 's/(.)(.*)/\U\1\L\2/' | paste -sd ", ")
+weight=$(jq -r '.weight' data.json)
+height=$(jq -r '.height' data.json)
+type=$(jq -r '.types[].type.name' data.json | sed -E 's/(.)(.*)/\U\1\L\2/' | paste -sd ", ")
 
-echo "$name is of type $p_type, weighs ${weight}kg, and is ${height}m tall."
+formatted_weight=$(awk -v w="$weight" 'BEGIN {printf "%.1f", w / 10}')
+formatted_height=$(awk -v h="$height" 'BEGIN {printf "%.1f", h / 10}')
+
+
+echo "$name is of type $type, weighs ${formatted_weight}kg, and is ${formatted_height}m tall."
 
 # echo "$pokemon"
 
