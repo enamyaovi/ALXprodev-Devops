@@ -1,0 +1,57 @@
+#!/bin/bash
+
+error_log="errors.txt"
+data_dir="pokemon_data"
+
+mkdir -p "$data_dir"
+touch "$error_log" || exit 1
+
+pokemon_array=("Bulbasaur" "Ivysaur" "Venusaur" "Charmander" "Charmeleon")
+
+for str in "${pokemon_array[@]}"; do
+    (
+        tmperror=$(mktemp)
+        tmpbody=$(mktemp)
+        retries=3
+        trap 'rm -f "$tmperror" "$tmpbody"' EXIT
+
+        echo "Fetching data for ${str}..."
+        while [ "$retries" -gt 0 ]; do
+            response=$(curl -w "%{http_code}" -sS -o "$tmpbody" "https://pokeapi.co/api/v2/pokemon/${str,,}" 2>"$tmperror")
+            exit_code=$?
+
+            if [[ "$response" -eq 200 && "$exit_code" -eq 0 ]]; then
+                mv "$tmpbody" "$data_dir/${str}.json"
+                echo "Saved data to ${data_dir}/${str}.json"
+                break
+            elif [[ "$response" -ne 200 && "$exit_code" -eq 0 ]]; then
+                {
+                    echo "[$(date)] Request failed for $str. HTTP Status: $response"
+                    cat "$tmpbody"
+                } >> "$error_log"
+                break
+            else
+                ((retries--))
+                sleep 1
+                if [[ "$retries" -eq 0 ]]; then
+                    {
+                        echo "[$(date)] Curl failed with exit code: $exit_code"
+                        cat "$tmperror"
+                    } >> "$error_log"
+                fi
+            fi
+        done
+    ) &
+
+    # Limit max 4 parallel jobs
+    while [ "$(jobs -rp | wc -l )" -ge 4 ]; do
+        sleep 0.5
+    done
+done
+
+wait
+
+echo "All done. Check $data_dir for results and $error_log for any issues."
+
+#for checker
+dum=("bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon")

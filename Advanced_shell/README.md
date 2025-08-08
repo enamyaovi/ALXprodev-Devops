@@ -40,7 +40,7 @@ Reads a saved `data.json` file and extracts key details, such as Pokémon name, 
 ### batchProcessing-0x02
 
 A Bash script that automates the extraction of data from a saved data.json file or API responses.
-It saves successful requests to the data/ directory and logs errors to a dedicated log file for review.
+It saves successful requests to the `pokemon_data/` directory and logs errors to a dedicated log file for review.
 Includes retry logic for certain HTTP errors (429 and 5xx) and organizes results for easy access.
 
 ### summaryData-0x03

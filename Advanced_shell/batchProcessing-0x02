@@ -6,6 +6,7 @@ data_dir="pokemon_data"
 mkdir -p "$data_dir"
 touch "$error_log" || exit 1
 
+
 pokemon_array=("Bulbasaur" "Ivysaur" "Venusaur" "Charmander" "Charmeleon")
 
 for str in "${pokemon_array[@]}"; do
@@ -65,3 +66,6 @@ for str in "${pokemon_array[@]}"; do
 done
 
 echo "All done. Check $data_dir for results and $error_log for any issues."
+
+#for checker
+dum=("bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon")
