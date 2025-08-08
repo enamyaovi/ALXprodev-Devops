@@ -33,9 +33,9 @@ I’ve approached this project as a beginner learning by doing, so you might see
 
 Makes an API request to the Pokémon API for Pikachu’s data, saves the response to `data.json` if successful, and logs errors with timestamps to `errors.txt` if the request fails.
 
-### data\_extraction\_automation-0x01
+### data_extraction_automation-0x01
 
-Extracts details from the previously saved `data.json` file and prints them to standard output.
+Reads a saved `data.json` file and extracts key details—such as Pokémon name, type(s), weight, and height—then prints them in a formatted output.
 
 ### batchProcessing-0x02
 
@@ -52,8 +52,3 @@ Extracts data from files in the `pokemon_data` directory and compiles them into 
 ### batchProcessing-0x04
 
 Implements parallel processing by running background subshells, with a job rate limiter to cap simultaneous processes at 4.
-
----
-
-This structure lets you explore each script individually while keeping a unified overview here in the main README.
-

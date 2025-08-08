@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# pokemon=$(jq '{name, weight, height, type:.types[].type.name }' data.json)
+
+[ -s data.json ] || { echo "Error: data.json not found or empty"; exit 1; }
+
+name=$(jq -r '.name' data.json | sed -E 's/(.)(.*)/\U\1\L\2/')
+weight=$(jq -r '.weight' data.json | awk '{ printf "%.1f", $1 / 10}')
+height=$(jq -r '.height' data.json | awk '{ printf "%.1f", $1 / 10}')
+p_type=$(jq -r '.types[].type.name' data.json | sed -E 's/(.)(.*)/\U\1\L\2/' | paste -sd ", ")
+
+echo "$name is of type $p_type, weighs ${weight}kg, and is ${height}m tall."
+
+# echo "$pokemon"
+
+#printf %.1f\\n $[${height} / 10]
+#echo "${pokemon[0]} is of type ${pokemon[3]}, weighs ${pokemon[1]}kg and is ${pokemon[2]}m tall."
