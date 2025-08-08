@@ -6,7 +6,7 @@ data_dir="pokemon_data"
 mkdir -p "$data_dir"
 touch "$error_log" || exit 1
 
-pokemon_array=("Bulbasaur" "Cephas" "Ivysaur" "Venusaur" "Charmander" "Charmeleon")
+pokemon_array=("Bulbasaur" "Ivysaur" "Venusaur" "Charmander" "Charmeleon")
 
 for str in "${pokemon_array[@]}"; do
     tmpbody=$(mktemp)

@@ -45,7 +45,8 @@ Includes retry logic for certain HTTP errors (429 and 5xx) and organizes results
 
 ### summaryData-0x03
 
-Extracts data from files in the `pokemon_data` directory and compiles them into a CSV. Also calculates the average height and weight using `awk`.
+Extracts data from JSON files in the `pokemon_data/` directory and compiles them into a CSV file.  
+Calculates the average height and weight using `awk` and appends the results to the CSV for quick reference.
 
 ### batchProcessing-0x04
 

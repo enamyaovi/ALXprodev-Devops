@@ -1,0 +1,41 @@
+#!/bin/bash
+
+pokemon=(pokemon_data/*)
+my_file="pokemon_report.csv"
+
+touch "$my_file" || exit 1
+echo "Name,Height (m),Weight (kg)" > $my_file
+total_height=0
+count=0
+total_weight=0
+for file in "${pokemon[@]}";do
+	
+	#retrieve the name, weight and height of pokemon
+	name=$(jq -r '.name' "${file}" | sed -E 's/(.)(.*)/\U\1\L\2/')
+	weight=$(jq -r '.weight / 10.0' "$file")
+	height=$(jq -r '.height / 10.0' "$file")
+	# echo "$name weighs ${weight}kg and is ${height}m tall"
+	printf "%s weighs %.1fkg and is %.1fm tall\n" "$name" "$weight" "$height"
+	
+	#append the data for each pokemon into csv file
+	# echo "$name,$height,$weight" >> $file
+	printf "%s,%.1f,%.1f\n" "$name" "$height" "$weight" >> "$my_file"
+	
+	#update the totals
+	total_height=$(awk -v a="$height" -v b="$total_height" 'BEGIN{print a+b}')
+	total_weight=$(awk -v a="$weight" -v b="$total_weight" 'BEGIN{print a+b}')
+	((count++))
+done
+
+#calculate the average height and the average weight
+# average_height=$(printf "%.2f" "$(awk -v a="$total_height" -v c="$count" 'BEGIN{print a/c}')")
+# average_weight=$(printf "%.2f" "$(awk -v a="$total_weight" -v c="$count" 'BEGIN{print a/c}')")
+
+average_height=$(awk -v t="$total_height" -v c="$count" 'BEGIN{printf "%.2f", t / c}')
+average_weight=$(awk -v t="$total_weight" -v c="$count" 'BEGIN{printf "%.2f", t / c}')
+
+{
+	printf "\n\n"
+	echo "Average Height: ${average_height} m" 
+	echo "Average Weight: ${average_weight} kg" 
+} >> "$my_file"
