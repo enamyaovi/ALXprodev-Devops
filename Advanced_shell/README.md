@@ -30,25 +30,25 @@ I’ve approached this project as a beginner learning by doing, so you might see
 
 ## Scripts Overview
 
-### [apiAutomation-0x00](./script_readme/apiAutomation-0x00)
+### [apiAutomation-0x00](./script_readme/apiAutomation-0x00_README.md)
 
 Makes an API request to the Pokémon API for Pikachu’s data, saves the response to `data.json` if successful, and logs errors with timestamps to `errors.txt` if the request fails.
 
-### [data_extraction_automation-0x01](./script_readme/data_extraction_automation-0x01)
+### [data_extraction_automation-0x01](./script_readme/data_extraction_automation-0x01_README.md)
 
 Reads a saved `data.json` file and extracts key details, such as Pokémon name, type(s), weight, and height then prints them in a formatted output.
 
-### [batchProcessing-0x02](./script_readme/batchProcessing-0x02)
+### [batchProcessing-0x02](./script_readme/batchProcessing-0x02_README.md)
 
 A Bash script that automates the extraction of data from a saved data.json file or API responses.
 It saves successful requests to the `pokemon_data/` directory and logs errors to a dedicated log file for review.
 Includes retry logic for certain HTTP errors (429 and 5xx) and organizes results for easy access.
 
-### [summaryData-0x03](./script_readme/summaryData-0x03)
+### [summaryData-0x03](./script_readme/summaryData-0x03_README.md)
 
 Extracts data from JSON files in the `pokemon_data/` directory and compiles them into a CSV file.  
 Calculates the average height and weight using `awk` and appends the results to the CSV for quick reference.
 
-### [batchProcessing-0x04](./script_readme/batchProcessing-0x04)
+### [batchProcessing-0x04](./script_readme/batchProcessing-0x04_README.md)
 
 Implements parallel processing by running background subshells, with a job rate limiter to cap simultaneous processes at 4.
