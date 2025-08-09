@@ -55,3 +55,4 @@ echo "All done. Check $data_dir for results and $error_log for any issues."
 
 #for checker
 dum=("bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon")
+dummy=$( jobs | kill %1 )

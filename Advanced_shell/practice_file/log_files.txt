@@ -1,0 +1,249 @@
+/home/enamyaovi/.docker/desktop/log/host/docker-desktop.log
+/home/enamyaovi/.docker/desktop/log/host/docker-desktop-user-distro.log
+/home/enamyaovi/.mysqlsh-gui/mysqlsh.log
+/home/enamyaovi/.landscape/sysinfo.log
+/home/enamyaovi/Alx_Pro_Dev/alx_travel_app_0x00/alx_travel_app/logs/app.log
+/home/enamyaovi/Alx_Pro_Dev/alx_travel_app_0x01/alx_travel_app/logs/app.log
+/home/enamyaovi/Alx_Pro_Dev/alx-backend-python/python-decorators-0x01/app.log
+/home/enamyaovi/Alx_Pro_Dev/alx-backend-python/Django-Middleware-0x03/logs/requests.log
+/home/enamyaovi/Alx_Pro_Dev/alx-backend-python/Django-Middleware-0x03/requests.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/output_logging_20241207T092902/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T092858/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241223T063037/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241223T063037/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241223T063037/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241223T063037/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241223T063037/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/output_logging_20241208T070454/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/output_logging_20241208T070454/2-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070449/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/output_logging_20241205T175852/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/output_logging_20241205T175852/2-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/vscode.typescript-language-features/TypeScript.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T175845/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/output_logging_20241206T034745/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/output_logging_20241206T034745/2-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241206T034741/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/output_logging_20241201T123649/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/output_logging_20241201T123649/2-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/vscode.typescript-language-features/TypeScript.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/output_logging_20241201T123648/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241201T123643/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/output_logging_20241207T053822/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/output_logging_20241207T053822/2-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/vscode.json-language-features/JSON Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/vscode.typescript-language-features/TypeScript.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241207T053817/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/output_logging_20241204T205345/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/output_logging_20241204T205345/2-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241204T205341/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/output_logging_20241208T070211/1-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241208T070208/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/remoteagent.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/ptyhost.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/output_logging_20241205T000341/1-HTML Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/output_logging_20241205T000341/3-SQLite.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/output_logging_20241205T000341/2-Python Test Log.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/vscode.json-language-features/JSON Language Server.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/vscode.typescript-language-features/TypeScript.log
+/home/enamyaovi/.vscode-server-bkp/data/logs/20241205T000338/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server-bkp/data/User/globalStorage/ms-vscode.powershell/logs/1731351156-faaa8007-5d41-4960-871b-0bea57cc21571731350783824/vscode-powershell.log
+/home/enamyaovi/.vscode-server-bkp/data/User/globalStorage/ms-vscode.powershell/logs/1730457078-4c66704c-b504-4083-a122-93d42339b3091730456515026/vscode-powershell.log
+/home/enamyaovi/PersonalLearning/projects/pythonista/app.log
+/home/enamyaovi/.cache/starship/session_1885995698626137.log
+/home/enamyaovi/.cache/starship/session_1034124971012431.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/output_logging_20250802T103508/2-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/output_logging_20250802T103508/1-ShellCheck.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/output_logging_20250802T103508/3-Bash IDE.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T103502/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/vscode.markdown-language-features/Markdown.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/output_logging_20250803T224452/1-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T224447/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/output_logging_20250801T210822/1-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/vscode.json-language-features/JSON Language Server.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/vscode.markdown-language-features/Markdown.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T210817/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/output_logging_20250802T150752/2-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/output_logging_20250802T150752/1-ShellCheck.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/output_logging_20250802T150752/3-Bash IDE.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T150745/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/exthost1/output_logging_20250802T143759/1-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/exthost1/vscode.markdown-language-features/Markdown.log
+/home/enamyaovi/.vscode-server/data/logs/20250802T143747/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/output_logging_20250808T004255/3-Bash IDE.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/output_logging_20250808T004255/1-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/output_logging_20250808T004255/2-ShellCheck.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250808T004247/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/output_logging_20250806T200533/2-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/output_logging_20250806T200533/1-ShellCheck.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/output_logging_20250806T200533/3-Bash IDE.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250806T200528/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/output_logging_20250803T214514/1-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/vscode.markdown-language-features/Markdown.log
+/home/enamyaovi/.vscode-server/data/logs/20250803T214508/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/output_logging_20250807T123338/2-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/output_logging_20250807T123338/1-ShellCheck.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/output_logging_20250807T123338/3-Bash IDE.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250807T123331/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/remoteagent.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/ptyhost.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/remoteTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/vscode.git/Git.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/output_logging_20250801T211505/1-Prettier.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/mechatroner.rainbow-csv/rainbow_csv_debug_channel.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/ms-python.python/Python Language Server.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/ms-python.python/Python Locator.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/ms-python.python/Python.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/remoteExtHostTelemetry.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/ms-python.debugpy/Python Debugger.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/vscode.github/GitHub.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/vscode.markdown-language-features/Markdown.log
+/home/enamyaovi/.vscode-server/data/logs/20250801T211501/exthost1/remoteexthost.log
+/home/enamyaovi/.vscode-server/data/User/History/618db473/Bdxv.log
+/home/enamyaovi/.vscode-server/data/User/History/-14d2ec76/2XqN.log
+/home/enamyaovi/.vscode-server/data/User/History/-14d2ec76/oinh.log
+/home/enamyaovi/.vscode-server/data/User/History/-4c22b0c0/gyAn.log
+/home/enamyaovi/.vscode-server/data/User/History/-4c22b0c0/bXFg.log
+/home/enamyaovi/.vscode-server/data/User/History/-4c22b0c0/Us4J.log
+/home/enamyaovi/.vscode-server/data/User/globalStorage/ms-vscode.powershell/logs/1731351156-faaa8007-5d41-4960-871b-0bea57cc21571731350783824/vscode-powershell.log
+/home/enamyaovi/.vscode-server/data/User/globalStorage/ms-vscode.powershell/logs/1730457078-4c66704c-b504-4083-a122-93d42339b3091730456515026/vscode-powershell.log

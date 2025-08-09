@@ -1,0 +1,43 @@
+#!/bin/bash
+
+TMPBODY=$(mktemp)
+TMP_ERROR=$(mktemp)
+ERROR_LOG="errors.txt"
+data_dir="pokemon_data"
+
+mkdir -p "$data_dir"
+touch "$ERROR_LOG" || exit 1
+
+pokemon_array=("Bulbasaur" "Ivysaur" "Venusaur" "Charmander" "Charmeleon")
+
+for str in "${pokemon_array[@]}"; do
+    echo "Fetching data for ${str}..."
+    response=$(curl -w "%{http_code}" -sS -o "$TMPBODY" "https://pokeapi.co/api/v2/pokemon/${str,,}" 2>"$TMP_ERROR")
+    exit_code=$?
+
+    if [ "$exit_code" -ne 0 ]; then
+        {
+            echo "[$(date)] Curl failed with exit code: $exit_code"
+            cat "$TMP_ERROR"
+        } >> "$ERROR_LOG"
+        exit "$exit_code"
+    fi
+
+    if [ "$response" -eq 200 ]; then
+        mv "$TMPBODY" "$data_dir/${str}.json"
+        echo "Saved data to ${data_dir}/${str}.json"
+    else
+        {
+            echo "[$(date)] Request failed for $str. HTTP Status: $response"
+            cat "$TMPBODY"
+        } >> "$ERROR_LOG"
+        rm -f "$TMPBODY"
+    fi
+
+    rm -f "$TMP_ERROR"
+    sleep 1
+done
+
+echo "All done. Check $data_dir for results and $ERROR_LOG for any issues."
+
+

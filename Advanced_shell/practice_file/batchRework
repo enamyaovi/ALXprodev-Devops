@@ -1,0 +1,78 @@
+#!/bin/bash
+
+tmpbody=$(mktemp)
+tmperror=$(mktemp)
+error_logger="errors.txt"
+data_dir="pokemon_data"
+url="https://pokeapi.co/api/v2/pokemon/"
+
+# Create data directory
+mkdir -p "$data_dir"
+
+# Create error logger file
+touch "$error_logger" || exit 1
+
+# Build pokemon array
+pokemons=("Cephas" "Bulbasaur")
+
+retries=3  # retry count for the entire batch
+
+while [ "$retries" -gt 0 ]; do
+    # Flag to check if any failure occurred in this batch pass
+    batch_failed=0
+
+    for pokemon in "${pokemons[@]}"; do
+        printf "Fetching data for %s\n" "$pokemon"
+
+        response=$(
+            curl -w "%{http_code}" -sS -o "$tmpbody" "${url}${pokemon,,}" 2>"$tmperror"
+        )
+        exit_code=$?  # Capture exit code immediately after curl
+
+        if [[ "$exit_code" -eq 0 ]]; then
+            if [[ "$response" -eq 200 ]]; then
+                mv "$tmpbody" "$data_dir/${pokemon}.json"
+                echo "Saved data to ${data_dir}/${pokemon}.json"
+                rm -f "$tmperror" # Clean error temp on success
+            else
+                {
+                    echo "[$(date)] Request failed for ${pokemon}. HTTP status: $response"
+                    cat "$tmpbody"
+                } >> "$error_logger"
+                rm -f "$tmpbody" "$tmperror"
+                batch_failed=1
+                # Break current for loop to retry entire batch next pass
+                break
+            fi
+        else
+            {
+                echo "[$(date)] Curl failed for ${pokemon} with exit code: $exit_code"
+                cat "$tmperror"
+            } >> "$error_logger"
+            rm -f "$tmpbody" "$tmperror"
+            batch_failed=1
+            # Break current for loop to retry entire batch next pass
+            break
+        fi
+    done
+
+    if [[ "$batch_failed" -eq 0 ]]; then
+        # All Pokémon fetched successfully, exit retry loop
+        break
+    else
+        ((retries--))
+        echo "Batch retry remaining: $retries"
+        if [[ "$retries" -eq 0 ]]; then
+            echo "Max retries reached. Check $error_logger for errors."
+            break
+        else
+            echo "Retrying entire batch in 2 seconds..."
+            sleep 2
+        fi
+    fi
+done
+
+# Cleanup temp files if they still exist
+rm -f "$tmpbody" "$tmperror"
+
+echo "Script complete. Check $data_dir for results and $error_logger for any issues."
