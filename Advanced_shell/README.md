@@ -2,7 +2,8 @@
 
 Welcome to my advanced shell project where I explore the usage of bash shell commands like `awk`, `sed`, `grep`, and `jq` to extract data, manipulate it, and perform tasks associated with automation and DevOps.
 
-This repository contains multiple scripts, each focusing on a specific task or concept. The purpose of this README is to provide a **general overview** of what each script does, while each script also has its own dedicated README for more detailed documentation.
+This repository contains multiple scripts, each focusing on a specific task or concept. Click on the heading of the script name to be redirected to it's readme file or check the `./script_readme` directory.
+The purpose of this README is to provide a **general overview** of what each script does, while each script also has its own dedicated README for more detailed documentation.
 
 I’ve approached this project as a beginner learning by doing, so you might see iterative improvements and refinements in different versions of the same script.
 
@@ -29,25 +30,25 @@ I’ve approached this project as a beginner learning by doing, so you might see
 
 ## Scripts Overview
 
-### apiAutomation-0x00
+### [apiAutomation-0x00](./script_readme/apiAutomation-0x00)
 
 Makes an API request to the Pokémon API for Pikachu’s data, saves the response to `data.json` if successful, and logs errors with timestamps to `errors.txt` if the request fails.
 
-### data_extraction_automation-0x01
+### [data_extraction_automation-0x01](./script_readme/data_extraction_automation-0x01)
 
 Reads a saved `data.json` file and extracts key details, such as Pokémon name, type(s), weight, and height then prints them in a formatted output.
 
-### batchProcessing-0x02
+### [batchProcessing-0x02](./script_readme/batchProcessing-0x02)
 
 A Bash script that automates the extraction of data from a saved data.json file or API responses.
 It saves successful requests to the `pokemon_data/` directory and logs errors to a dedicated log file for review.
 Includes retry logic for certain HTTP errors (429 and 5xx) and organizes results for easy access.
 
-### summaryData-0x03
+### [summaryData-0x03](./script_readme/summaryData-0x03)
 
 Extracts data from JSON files in the `pokemon_data/` directory and compiles them into a CSV file.  
 Calculates the average height and weight using `awk` and appends the results to the CSV for quick reference.
 
-### batchProcessing-0x04
+### [batchProcessing-0x04](./script_readme/batchProcessing-0x04)
 
 Implements parallel processing by running background subshells, with a job rate limiter to cap simultaneous processes at 4.
